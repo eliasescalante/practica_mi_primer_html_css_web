@@ -1,0 +1,129 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+/* font-family: 'Libre Baskerville', serif; */
+
+body{
+    font-family: 'Libre Baskerville', serif;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: black;   
+}
+
+p{
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+header img{
+    width: 60px;
+}
+
+header ul{
+    list-style: none;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+.banner{
+    background-image: url(../img/banner.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    text-shadow: -1px -1px 20px rgba(0,0,0,1);
+}
+
+h1{
+    padding: 50px;
+    text-align: center;
+}
+
+.presentacion{
+    text-align: center;
+    color: black;
+    margin-top: 100px;       
+    margin-bottom: 100px;    
+    margin-right: 400px;     
+    margin-left: 400px;      
+}
+
+.presentacion h2{
+    text-align: center;
+    color: #11468F;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer img{
+    padding: 20px;
+}
+
+footer p{
+    text-align: center;
+    padd
+}
+
+.introduccion {
+    text-align: center;
+}
+
+.mapa-club{
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.formulario{
+    max-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 800px;
+}
+
+.escuela-introduccion{
+    text-align: center;
+}
+
+#imagen-escuela{
+    text-align: center;
+}
+
+.historia-titulo{
+    text-align: center;
+    padding: 10px;
+}
+
+.staff-contenido{
+    display: flex;
+}
+.staff-titulo{
+    text-align: justify;
+}
+
+.staff-contenido.imagen img{
+    width: 100px; 
+    height: auto; 
+    margin-right: 20px; 
+}

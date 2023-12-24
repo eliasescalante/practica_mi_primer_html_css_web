@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <!--Logo-->
+        <img src="../img/icono.png" alt="logo de la escuela">
+
+        <!--menu-->
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./pages/historia.html">Historia</a></li>
+                <li><a href="./pages/escuela.html">Escuela</a></li>
+                <li><a href="./pages/staff.html">Staff</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="introduccion">
+            <h1>¡Contáctanos!</h1>
+            <p>Si tienes alguna duda o quieres enviarnos un mensaje, no dudes en hacerlo.</p>
+            <p>Podes visitarnos en las direcciones marcadas abajo o bien mandarnos un mensaje</p>
+        </section>
+
+        <section class="mapa-club">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26232.126468642982!2d-58.28472996523437!3d-34.729995900000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e691232f539%3A0xd89a83aa3f7a5fdc!2sClub%20Social%20y%20Deportivo%2012%20de%20Octubre%2F%20Natatorio%20Roberto%20%22Fofi%22%20Ojea!5e0!3m2!1ses-419!2sar!4v1703453512952!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.977489141824!2d-58.294292711266515!3d-34.73096179436567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32ddd71257a07%3A0x721fb1b7306a5f26!2sSoc%20Fomento%20Loma%20Alegre!5e0!3m2!1ses-419!2sar!4v1703454146909!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </section>
+
+        <section class="formulario">
+            <form action="/procesar_formulario.php" method="post">
+                <!-- Campo para el nombre -->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br>
+        
+                <!-- Campo para el correo electrónico -->
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+        
+                <!-- Campo de área de texto -->
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+                <br>
+        
+                <!-- Botón de envío -->
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <div>
+            <a href="#"><img src="../img/facebook_logo.png" alt="logo facebook"></a>
+            <a href="#"><img src="../img/instagram_logo.png" alt="logo facebook"></a>
+            <a href="#"><img src="../img/x_logo.png" alt="logo facebook"></a>
+        </div>
+        <p>© 2023 Shen xing Lin | Diseñado por: Elias Escalante</p>
+    </footer>
+
+
+</body>
+</html>
