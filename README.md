@@ -1,7 +1,9 @@
 # primera_preentrega
 
+- Elias Escalante
+
 ----
-primera pre-entrega para curso de html-css de coderhouse
+primera pre-entrega para el curso de html-css de coderhouse
 
 ----
 
