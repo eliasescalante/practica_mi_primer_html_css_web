@@ -6,6 +6,10 @@
 ## primera pre-entrega para el curso de html-css de coderhouse
 ## practica con HTML 5 y CSS
 
+- practica de etiquetas
+- semantica
+- sintaxis basica de CSS y HTML
+
 ----
 
 ## url del link del wireframe : https://whimsical.com/primer-wireframe-A1751ca8YpxkEcF3FLQyU6
