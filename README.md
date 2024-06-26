@@ -20,3 +20,11 @@
 
 ![captura](https://github.com/eliasescalante/practica_curso_html_css_web/blob/main/Capture.JPG)
 
+----
+
+![GitHub repo size](https://img.shields.io/github/repo-size/eliasescalante/practica_curso_html_css_web
+)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/eliasescalante/practica_curso_html_css_web
+)
+![GitHub last commit](https://img.shields.io/github/last-commit/eliasescalante/practica_curso_html_css_web
+)
